@@ -15,19 +15,26 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .landing {
     padding: 30px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .landingLeft {
     margin: 20px;
+    padding: 10px;
 }
 
-h1, h2, h3, h4, h5 {
+.landingRight {
+    padding: 40px;
+}
+
+h1, h2, h3, h4, h5, a {
     font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
 }
 
@@ -35,3 +42,43 @@ p {
     font-family: 'Whitman', serif;
 }
 
+.workSection {
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.workHeading {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    margin-bottom: 90px;
+}
+
+.project {
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+}
+
+.projectLeft {
+    padding: 60px;
+    margin-right: 10px;
+}
+.projectRight {
+    margin: 20px;
+}
+
+.projectLeft > h5 {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.projectLeft > h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+
+footer {
+    display: flex;
+}
