@@ -1,0 +1,37 @@
+:root {
+    --primary-color: rgba(239, 239, 239, 1);
+    --overlay-color: rgba(239, 239, 239, 1);
+    --menu-speed: 0.75s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.landingLeft {
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
+}
+
+p {
+    font-family: 'Whitman', serif;
+}
+
