@@ -21,17 +21,19 @@
 .landing {
     padding: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .landingLeft {
     margin: 20px;
     padding: 10px;
+    width: 40%;
 }
 
 .landingRight {
     padding: 40px;
+    width: 40%;
 }
 
 h1, h2, h3, h4, h5, a {
@@ -87,9 +89,12 @@ button {
 .projectLeft {
     padding: 60px;
     margin-right: 10px;
+    width: 40%;
 }
 .projectRight {
-    margin: 20px;
+    /* margin-left: 20px; */
+    padding: 20px;
+    width: 40%;
 }
 
 .projectLeft > h5 {
@@ -109,6 +114,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     background-color: #EFEFEF;
     padding: 40px;
 }
@@ -123,4 +129,31 @@ footer > h2 {
     margin: 20px;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 992px) {
+    .landing {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .landingLeft {
+        width: 60%;
+    }
+    .landingRight {
+        padding: 10px;
+        width: 60%;
+    }
+    .project {
+        flex-direction: column;
+    }
+    .projectLeft {
+        padding: 10px;
+        width: 60%;
+    }
+    .projectRight {
+        padding: 10px;
+        width: 60%;
+    }
+
+}
+@media screen and (max-width: 600px) {}
 
