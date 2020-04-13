@@ -136,4 +136,12 @@
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-wrap .menu > div > div > ul > li > a:hover {
+    color: #87C6BD;
+    text-decoration: none;
+    transition: color 0.4s ease;
 }

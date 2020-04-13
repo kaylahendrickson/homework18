@@ -42,21 +42,46 @@ p {
     font-family: 'Whitman', serif;
 }
 
-.workSection {
-    /* display: flex; */
-    /* justify-content: space-between; */
+a {
+    text-decoration: none;
+    color: #000000;
 }
+
+a:hover {
+    color: #87C6BD;
+    transition: color 0.4s ease;
+}
+
+button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px;
+    font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
+  }
+
+  button:hover {
+      background-color: #87C6BD;
+      transition: background-color 0.4s ease;
+  }
+
 .workHeading {
     display: flex;
     justify-content: center;
     margin: 60px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .project {
     display: flex;
     /* justify-content: ; */
     align-items: center;
+    margin: 40px;
 }
 
 .projectLeft {
@@ -81,4 +106,21 @@ p {
 
 footer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    padding: 40px;
 }
+
+footer > h2 {
+    margin-bottom: 10px;
+}
+
+.socialIcons {
+    list-style-type: none;
+    display:inline-block;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
